@@ -29,22 +29,26 @@ void main(){
                 ],
               ),
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.yellow,
+                  Expanded(
+                    child: Container(
+                      height: 100,
+                      color: Colors.yellow,
+                    ),
                   ),
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.yellow,
+                  SizedBox( width: 20,),
+                  Expanded(
+                    child: Container(
+                      height: 100,
+                      color: Colors.yellow,
+                    ),
                   ),
-                  Container(
-                    height: 100,
-                    width: 100,
-                    color: Colors.yellow,
+                  SizedBox( width: 20,),
+                  Expanded(
+                    child: Container(
+                      height: 100,
+                      color: Colors.yellow,
+                    ),
                   )
                 ],
               ),
