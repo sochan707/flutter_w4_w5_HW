@@ -88,8 +88,8 @@ void main() {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
-                    HobbyBox(name: 'soccer'),
-                    HobbyBox(name: 'Play game'),
+                    Expanded(child: HobbyBox(name: 'soccer')),
+                    Expanded(child: HobbyBox(name: 'Play game')),
                   ],
                 ),
               ),
@@ -151,7 +151,7 @@ class HobbyBox extends StatelessWidget {
       margin: EdgeInsets.all(25),
       padding: EdgeInsets.all(15),
       height: 250,
-      width: 300,
+      // width: 300,
       decoration: BoxDecoration(
         color: const Color.fromARGB(255, 200, 235, 159),
         borderRadius: BorderRadius.circular(20)
