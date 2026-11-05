@@ -84,14 +84,12 @@ void main() {
                   ),
                 ),
               ),
-              Container(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceAround,
-                  children: [
-                    Expanded(child: HobbyBox(name: 'soccer')),
-                    Expanded(child: HobbyBox(name: 'Play game')),
-                  ],
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Expanded(child: HobbyBox(name: 'soccer')),
+                  Expanded(child: HobbyBox(name: 'Play game')),
+                ],
               ),
             ],
           ),
